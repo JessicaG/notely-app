@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F672933A1ED2474E00DA34E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67293391ED2474E00DA34E4 /* AppDelegate.swift */; };
+		F672933C1ED2474E00DA34E4 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672933B1ED2474E00DA34E4 /* RootViewController.swift */; };
+		F672933E1ED2474E00DA34E4 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672933D1ED2474E00DA34E4 /* DataViewController.swift */; };
+		F67293401ED2474E00DA34E4 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672933F1ED2474E00DA34E4 /* ModelController.swift */; };
+		F67293431ED2474E00DA34E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67293411ED2474E00DA34E4 /* Main.storyboard */; };
+		F67293451ED2474E00DA34E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67293441ED2474E00DA34E4 /* Assets.xcassets */; };
+		F67293481ED2474E00DA34E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67293461ED2474E00DA34E4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F67293361ED2474E00DA34E4 /* notely-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "notely-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67293391ED2474E00DA34E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F672933B1ED2474E00DA34E4 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F672933D1ED2474E00DA34E4 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		F672933F1ED2474E00DA34E4 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		F67293421ED2474E00DA34E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F67293441ED2474E00DA34E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F67293471ED2474E00DA34E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F67293491ED2474E00DA34E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F67293331ED2474E00DA34E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F672932D1ED2474E00DA34E4 = {
+			isa = PBXGroup;
+			children = (
+				F67293381ED2474E00DA34E4 /* notely-app */,
+				F67293371ED2474E00DA34E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F67293371ED2474E00DA34E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F67293361ED2474E00DA34E4 /* notely-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F67293381ED2474E00DA34E4 /* notely-app */ = {
+			isa = PBXGroup;
+			children = (
+				F67293391ED2474E00DA34E4 /* AppDelegate.swift */,
+				F672933B1ED2474E00DA34E4 /* RootViewController.swift */,
+				F672933D1ED2474E00DA34E4 /* DataViewController.swift */,
+				F672933F1ED2474E00DA34E4 /* ModelController.swift */,
+				F67293411ED2474E00DA34E4 /* Main.storyboard */,
+				F67293441ED2474E00DA34E4 /* Assets.xcassets */,
+				F67293461ED2474E00DA34E4 /* LaunchScreen.storyboard */,
+				F67293491ED2474E00DA34E4 /* Info.plist */,
+			);
+			path = "notely-app";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F67293351ED2474E00DA34E4 /* notely-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F672934C1ED2474E00DA34E4 /* Build configuration list for PBXNativeTarget "notely-app" */;
+			buildPhases = (
+				F67293321ED2474E00DA34E4 /* Sources */,
+				F67293331ED2474E00DA34E4 /* Frameworks */,
+				F67293341ED2474E00DA34E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "notely-app";
+			productName = "notely-app";
+			productReference = F67293361ED2474E00DA34E4 /* notely-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F672932E1ED2474E00DA34E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jessica West";
+				TargetAttributes = {
+					F67293351ED2474E00DA34E4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H45SU4NTBT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F67293311ED2474E00DA34E4 /* Build configuration list for PBXProject "notely-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F672932D1ED2474E00DA34E4;
+			productRefGroup = F67293371ED2474E00DA34E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F67293351ED2474E00DA34E4 /* notely-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F67293341ED2474E00DA34E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67293481ED2474E00DA34E4 /* LaunchScreen.storyboard in Resources */,
+				F67293451ED2474E00DA34E4 /* Assets.xcassets in Resources */,
+				F67293431ED2474E00DA34E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F67293321ED2474E00DA34E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F672933C1ED2474E00DA34E4 /* RootViewController.swift in Sources */,
+				F67293401ED2474E00DA34E4 /* ModelController.swift in Sources */,
+				F672933E1ED2474E00DA34E4 /* DataViewController.swift in Sources */,
+				F672933A1ED2474E00DA34E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F67293411ED2474E00DA34E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67293421ED2474E00DA34E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F67293461ED2474E00DA34E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67293471ED2474E00DA34E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F672934A1ED2474E00DA34E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F672934B1ED2474E00DA34E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F672934D1ED2474E00DA34E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H45SU4NTBT;
+				INFOPLIST_FILE = "notely-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jessicawest.notely-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F672934E1ED2474E00DA34E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H45SU4NTBT;
+				INFOPLIST_FILE = "notely-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jessicawest.notely-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F67293311ED2474E00DA34E4 /* Build configuration list for PBXProject "notely-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F672934A1ED2474E00DA34E4 /* Debug */,
+				F672934B1ED2474E00DA34E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F672934C1ED2474E00DA34E4 /* Build configuration list for PBXNativeTarget "notely-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F672934D1ED2474E00DA34E4 /* Debug */,
+				F672934E1ED2474E00DA34E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F672932E1ED2474E00DA34E4 /* Project object */;
+}
