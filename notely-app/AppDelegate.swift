@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  notely-app
-//
-//  Created by Jessica West on 5/21/17.
-//  Copyright © 2017 Jessica West. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
