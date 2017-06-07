@@ -62,6 +62,7 @@
                                 </state>
                                 <connections>
                                     <action selector="loginButton:" destination="S4R-Ja-viH" eventType="touchUpInside" id="FnU-Ed-aRd"/>
+                                    <segue destination="uFq-lT-9WZ" kind="showDetail" id="rr2-I6-IXc"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="New user? Sign Up" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9WH-fP-jyb">
@@ -71,8 +72,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="Notely" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="cF2-Le-7mQ">
-                                <rect key="frame" x="16" y="65" width="343" height="63"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Notely" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="cF2-Le-7mQ">
+                                <rect key="frame" x="16" y="65" width="343" height="85"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="55"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -104,6 +105,103 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GmD-Rr-ZGN" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="596" y="-243.32833583208398"/>
+        </scene>
+        <!--Authenticate View Controller-->
+        <scene sceneID="XZT-Ws-vRH">
+            <objects>
+                <viewController id="uFq-lT-9WZ" customClass="AuthenticateViewController" customModule="notely_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fPQ-2C-0Bv"/>
+                        <viewControllerLayoutGuide type="bottom" id="ID0-Fr-Qqu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BGr-bf-N2t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="15556667777" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DYU-LI-JLX" userLabel="Phone Number Field">
+                                <rect key="frame" x="78" y="283" width="221" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To verify your identity, please enter your phone nuber, including country code." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0YH-A7-RHa">
+                                <rect key="frame" x="61" y="157" width="253" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1N-XN-THb" userLabel="Send Text Button">
+                                <rect key="frame" x="78" y="330" width="221" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Send me a text">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendUserText:" destination="uFq-lT-9WZ" eventType="touchUpInside" id="qiH-zA-Fjd"/>
+                                    <segue destination="7dO-Wb-1kC" kind="showDetail" id="8lJ-69-3zv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="phoneNumberField" destination="DYU-LI-JLX" id="lPr-DH-pJA"/>
+                        <outlet property="sendTextButton" destination="c1N-XN-THb" id="bsR-y0-d9L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KOT-jl-pY0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1296.8" y="-243.32833583208398"/>
+        </scene>
+        <!--Verify View Controller-->
+        <scene sceneID="jWe-B2-iaz">
+            <objects>
+                <viewController id="7dO-Wb-1kC" customClass="VerifyViewController" customModule="notely_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UDd-Ia-YHs"/>
+                        <viewControllerLayoutGuide type="bottom" id="3tb-cc-3yc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DyF-ZO-5ra">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n9U-6C-KRe">
+                                <rect key="frame" x="57" y="112" width="282" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">An authentication code has been sent to the number provided. After receiving the message, please enter the authentication code you received.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="5555" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nPw-1v-oWF" userLabel="Authentication Code Field">
+                                <rect key="frame" x="57" y="259" width="282" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sl3-0Y-VVn" userLabel="Verify Button">
+                                <rect key="frame" x="57" y="297" width="282" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Verify me!"/>
+                                <connections>
+                                    <action selector="verifyUser:" destination="7dO-Wb-1kC" eventType="touchUpInside" id="ezm-wp-D0W"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="verifyNumberField" destination="nPw-1v-oWF" id="fLN-MN-OHO"/>
+                        <outlet property="verifyUserButton" destination="Sl3-0Y-VVn" id="UvX-4J-hP1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jTt-Ic-48v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1973.5999999999999" y="-243.32833583208398"/>
         </scene>
     </scenes>
 </document>

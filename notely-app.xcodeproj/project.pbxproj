@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECAA9E80CDF56ED792EEB5D4 /* Pods_notely_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30851C6F6419110E749EBB1 /* Pods_notely_app.framework */; };
+		F665CFF31EDF36D00013FCD8 /* Notes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F665CFF11EDF36D00013FCD8 /* Notes.storyboard */; };
 		F672933A1ED2474E00DA34E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67293391ED2474E00DA34E4 /* AppDelegate.swift */; };
 		F672933C1ED2474E00DA34E4 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672933B1ED2474E00DA34E4 /* RootViewController.swift */; };
 		F672933E1ED2474E00DA34E4 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672933D1ED2474E00DA34E4 /* DataViewController.swift */; };
@@ -14,9 +16,17 @@
 		F67293431ED2474E00DA34E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67293411ED2474E00DA34E4 /* Main.storyboard */; };
 		F67293451ED2474E00DA34E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67293441ED2474E00DA34E4 /* Assets.xcassets */; };
 		F67293481ED2474E00DA34E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67293461ED2474E00DA34E4 /* LaunchScreen.storyboard */; };
+		F6B0ACEE1EE858C2005C68A1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B0ACED1EE858C2005C68A1 /* Alamofire.framework */; };
+		F6B0ACF01EE884C3005C68A1 /* UserAlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B0ACEF1EE884C3005C68A1 /* UserAlertsViewController.swift */; };
+		F6B0ACF21EE8B412005C68A1 /* AuthenticateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B0ACF11EE8B412005C68A1 /* AuthenticateView.swift */; };
+		F6B0ACF41EE8B421005C68A1 /* VerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B0ACF31EE8B421005C68A1 /* VerifyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BD58039F7B75C7DA9861D00 /* Pods-notely-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notely-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-notely-app/Pods-notely-app.release.xcconfig"; sourceTree = "<group>"; };
+		C30851C6F6419110E749EBB1 /* Pods_notely_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notely_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAD565166F5DF0388407DF9 /* Pods-notely-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notely-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-notely-app/Pods-notely-app.debug.xcconfig"; sourceTree = "<group>"; };
+		F665CFF21EDF36D00013FCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Notes.storyboard; sourceTree = "<group>"; };
 		F67293361ED2474E00DA34E4 /* notely-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "notely-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F67293391ED2474E00DA34E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F672933B1ED2474E00DA34E4 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +36,10 @@
 		F67293441ED2474E00DA34E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F67293471ED2474E00DA34E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F67293491ED2474E00DA34E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B0ACED1EE858C2005C68A1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Release-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		F6B0ACEF1EE884C3005C68A1 /* UserAlertsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAlertsViewController.swift; sourceTree = "<group>"; };
+		F6B0ACF11EE8B412005C68A1 /* AuthenticateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticateView.swift; sourceTree = "<group>"; };
+		F6B0ACF31EE8B421005C68A1 /* VerifyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B0ACEE1EE858C2005C68A1 /* Alamofire.framework in Frameworks */,
+				ECAA9E80CDF56ED792EEB5D4 /* Pods_notely_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D0855FA8D3506B6CF899DB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6B0ACED1EE858C2005C68A1 /* Alamofire.framework */,
+				C30851C6F6419110E749EBB1 /* Pods_notely_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A7821B07639A71E843A5505 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD565166F5DF0388407DF9 /* Pods-notely-app.debug.xcconfig */,
+				2BD58039F7B75C7DA9861D00 /* Pods-notely-app.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F672932D1ED2474E00DA34E4 = {
 			isa = PBXGroup;
 			children = (
 				F67293381ED2474E00DA34E4 /* notely-app */,
 				F67293371ED2474E00DA34E4 /* Products */,
+				2A7821B07639A71E843A5505 /* Pods */,
+				1D0855FA8D3506B6CF899DB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,11 +97,15 @@
 				F67293391ED2474E00DA34E4 /* AppDelegate.swift */,
 				F672933B1ED2474E00DA34E4 /* RootViewController.swift */,
 				F672933D1ED2474E00DA34E4 /* DataViewController.swift */,
+				F6B0ACF11EE8B412005C68A1 /* AuthenticateView.swift */,
+				F6B0ACF31EE8B421005C68A1 /* VerifyView.swift */,
 				F672933F1ED2474E00DA34E4 /* ModelController.swift */,
 				F67293411ED2474E00DA34E4 /* Main.storyboard */,
+				F665CFF11EDF36D00013FCD8 /* Notes.storyboard */,
 				F67293441ED2474E00DA34E4 /* Assets.xcassets */,
 				F67293461ED2474E00DA34E4 /* LaunchScreen.storyboard */,
 				F67293491ED2474E00DA34E4 /* Info.plist */,
+				F6B0ACEF1EE884C3005C68A1 /* UserAlertsViewController.swift */,
 			);
 			path = "notely-app";
 			sourceTree = "<group>";
@@ -77,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F672934C1ED2474E00DA34E4 /* Build configuration list for PBXNativeTarget "notely-app" */;
 			buildPhases = (
+				CFDE84D6FC1CEA57FC44B3FB /* [CP] Check Pods Manifest.lock */,
 				F67293321ED2474E00DA34E4 /* Sources */,
 				F67293331ED2474E00DA34E4 /* Frameworks */,
 				F67293341ED2474E00DA34E4 /* Resources */,
+				8DEF9571FE6C6BBFE77CB686 /* [CP] Embed Pods Frameworks */,
+				CBE21CF4088D032883BA275F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F665CFF31EDF36D00013FCD8 /* Notes.storyboard in Resources */,
 				F67293481ED2474E00DA34E4 /* LaunchScreen.storyboard in Resources */,
 				F67293451ED2474E00DA34E4 /* Assets.xcassets in Resources */,
 				F67293431ED2474E00DA34E4 /* Main.storyboard in Resources */,
@@ -138,21 +182,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8DEF9571FE6C6BBFE77CB686 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-notely-app/Pods-notely-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBE21CF4088D032883BA275F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-notely-app/Pods-notely-app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFDE84D6FC1CEA57FC44B3FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F67293321ED2474E00DA34E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B0ACF41EE8B421005C68A1 /* VerifyView.swift in Sources */,
 				F672933C1ED2474E00DA34E4 /* RootViewController.swift in Sources */,
+				F6B0ACF01EE884C3005C68A1 /* UserAlertsViewController.swift in Sources */,
 				F67293401ED2474E00DA34E4 /* ModelController.swift in Sources */,
 				F672933E1ED2474E00DA34E4 /* DataViewController.swift in Sources */,
 				F672933A1ED2474E00DA34E4 /* AppDelegate.swift in Sources */,
+				F6B0ACF21EE8B412005C68A1 /* AuthenticateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		F665CFF11EDF36D00013FCD8 /* Notes.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F665CFF21EDF36D00013FCD8 /* Base */,
+			);
+			name = Notes.storyboard;
+			sourceTree = "<group>";
+		};
 		F67293411ED2474E00DA34E4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -267,9 +370,14 @@
 		};
 		F672934D1ED2474E00DA34E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAD565166F5DF0388407DF9 /* Pods-notely-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H45SU4NTBT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Alamofire",
+				);
 				INFOPLIST_FILE = "notely-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jessicawest.notely-app";
@@ -280,9 +388,14 @@
 		};
 		F672934E1ED2474E00DA34E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD58039F7B75C7DA9861D00 /* Pods-notely-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H45SU4NTBT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Alamofire",
+				);
 				INFOPLIST_FILE = "notely-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jessicawest.notely-app";
@@ -310,6 +423,7 @@
 				F672934E1ED2474E00DA34E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
