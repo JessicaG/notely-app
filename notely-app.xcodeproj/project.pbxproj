@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		ECAA9E80CDF56ED792EEB5D4 /* Pods_notely_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30851C6F6419110E749EBB1 /* Pods_notely_app.framework */; };
-		F665CFF31EDF36D00013FCD8 /* Notes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F665CFF11EDF36D00013FCD8 /* Notes.storyboard */; };
+		F65BACD21EE9C8C10005ACEA /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BACD11EE9C8C10005ACEA /* NotesViewController.swift */; };
+		F65BACD41EE9EFA50005ACEA /* SingleNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BACD31EE9EFA50005ACEA /* SingleNoteViewController.swift */; };
 		F672933A1ED2474E00DA34E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67293391ED2474E00DA34E4 /* AppDelegate.swift */; };
 		F672933C1ED2474E00DA34E4 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672933B1ED2474E00DA34E4 /* RootViewController.swift */; };
 		F672933E1ED2474E00DA34E4 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F672933D1ED2474E00DA34E4 /* DataViewController.swift */; };
@@ -26,7 +27,8 @@
 		2BD58039F7B75C7DA9861D00 /* Pods-notely-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notely-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-notely-app/Pods-notely-app.release.xcconfig"; sourceTree = "<group>"; };
 		C30851C6F6419110E749EBB1 /* Pods_notely_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notely_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDAD565166F5DF0388407DF9 /* Pods-notely-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notely-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-notely-app/Pods-notely-app.debug.xcconfig"; sourceTree = "<group>"; };
-		F665CFF21EDF36D00013FCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Notes.storyboard; sourceTree = "<group>"; };
+		F65BACD11EE9C8C10005ACEA /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		F65BACD31EE9EFA50005ACEA /* SingleNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleNoteViewController.swift; sourceTree = "<group>"; };
 		F67293361ED2474E00DA34E4 /* notely-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "notely-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F67293391ED2474E00DA34E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F672933B1ED2474E00DA34E4 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -99,9 +101,10 @@
 				F672933D1ED2474E00DA34E4 /* DataViewController.swift */,
 				F6B0ACF11EE8B412005C68A1 /* AuthenticateView.swift */,
 				F6B0ACF31EE8B421005C68A1 /* VerifyView.swift */,
+				F65BACD31EE9EFA50005ACEA /* SingleNoteViewController.swift */,
 				F672933F1ED2474E00DA34E4 /* ModelController.swift */,
 				F67293411ED2474E00DA34E4 /* Main.storyboard */,
-				F665CFF11EDF36D00013FCD8 /* Notes.storyboard */,
+				F65BACD11EE9C8C10005ACEA /* NotesViewController.swift */,
 				F67293441ED2474E00DA34E4 /* Assets.xcassets */,
 				F67293461ED2474E00DA34E4 /* LaunchScreen.storyboard */,
 				F67293491ED2474E00DA34E4 /* Info.plist */,
@@ -173,7 +176,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F665CFF31EDF36D00013FCD8 /* Notes.storyboard in Resources */,
 				F67293481ED2474E00DA34E4 /* LaunchScreen.storyboard in Resources */,
 				F67293451ED2474E00DA34E4 /* Assets.xcassets in Resources */,
 				F67293431ED2474E00DA34E4 /* Main.storyboard in Resources */,
@@ -239,7 +241,9 @@
 				F672933C1ED2474E00DA34E4 /* RootViewController.swift in Sources */,
 				F6B0ACF01EE884C3005C68A1 /* UserAlertsViewController.swift in Sources */,
 				F67293401ED2474E00DA34E4 /* ModelController.swift in Sources */,
+				F65BACD21EE9C8C10005ACEA /* NotesViewController.swift in Sources */,
 				F672933E1ED2474E00DA34E4 /* DataViewController.swift in Sources */,
+				F65BACD41EE9EFA50005ACEA /* SingleNoteViewController.swift in Sources */,
 				F672933A1ED2474E00DA34E4 /* AppDelegate.swift in Sources */,
 				F6B0ACF21EE8B412005C68A1 /* AuthenticateView.swift in Sources */,
 			);
@@ -248,14 +252,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F665CFF11EDF36D00013FCD8 /* Notes.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F665CFF21EDF36D00013FCD8 /* Base */,
-			);
-			name = Notes.storyboard;
-			sourceTree = "<group>";
-		};
 		F67293411ED2474E00DA34E4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
